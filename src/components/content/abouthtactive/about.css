@@ -1,0 +1,104 @@
+.text-center {
+    text-align: center;
+}
+
+.about-title {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .85);
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: .5em;
+    margin-top: 40px;
+}
+
+.separator {
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin: 15px auto;
+    background-color: #ccc;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.separator:after {
+    width: 30px;
+    height: 5px;
+    background: #333;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    content: "";
+}
+
+.lead {
+    font-weight: 340;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+#paragrap {
+    position: relative;
+    min-height: 1px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    font-feature-settings: "tnum";
+    font-size: 15px;
+    font-variant-caps: normal;
+}
+
+.hand-img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+/* collapse */
+
+.my-ant-collapse {
+    margin-top: 20px;
+    font-feature-settings: "tnum";
+    border: 1px solid #d9d9d9;
+    border-bottom: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.ant-collapse>.ant-collapse-item>.ant-collapse-header {
+    color: white;
+    font-weight: 600;
+}
+
+.my-collapse-header {
+    color: white;
+}
+
+.myCollapse {
+    background-color: #757575;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.myCollapse:hover {
+    background-color: #333;
+}
+
+.collapse-text {
+    overflow: hidden;
+    background-color: #fff;
+    border-top: 1px solid #d9d9d9;
+    font-size: 12pt;
+}
+
+.contact-now {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #93eee6, #D7EAF2, #99d6df, #333);
+    width: 100%;
+    height: 220px;
+    margin-bottom: 30px;
+    padding: 100px;
+}

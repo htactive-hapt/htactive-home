@@ -1,0 +1,56 @@
+.text-center {
+    text-align: center;
+}
+
+.session-services {
+    background-color: #f1f1f1;
+}
+
+.service-title {
+    font-weight: 700;
+    color: rgba(0, 0, 0, .85);
+    font-size: 38px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: .5em;
+    margin-top: 40px;
+}
+
+.lead {
+    font-size: 21px;
+    font-weight: 320;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+#read-more {
+    background-color: #e32c1c;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 450;
+    margin: 5px;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+#icon-service {
+    font-size: 100px;
+    color: rgba(7, 7, 7, 0.87);
+}
+
+.service-container {
+    cursor: pointer;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.services {
+    width: 90%;
+    text-align: center;
+    padding: 5%;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    margin-bottom: 65px;
+}

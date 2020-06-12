@@ -1,0 +1,41 @@
+.header {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+}
+
+#slogant {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #595959;
+    font-feature-settings: "tnum";
+}
+
+#logo_red {
+    width: 35%;
+}
+
+#banner {
+    margin-top: 1%;
+    width: 34%;
+    margin-left: 20%;
+}
+
+#topnav {
+    width: 55%;
+}
+
+#topnav a {
+    display: inline-block;
+    color: dimgrey;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+#topnav a:hover {
+    color: firebrick;
+}
